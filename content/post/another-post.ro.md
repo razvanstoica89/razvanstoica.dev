@@ -1,5 +1,5 @@
 ---
-title: "Another post"
+title: "Un alt post"
 date: 2021-11-07T11:30:03+00:00
 weight: 1
 aliases: ["/alt"]
@@ -33,5 +33,5 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-# This is an another post
+# Aceasta este un alt post
 Lorem ipsum dolor sit amet

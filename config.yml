@@ -11,6 +11,7 @@ buildExpired: false
 enableInlineShortcodes: true
 enableEmoji: true
 
+#copyright: "Lorem ipsum"
 #googleAnalytics: UA-123-45
 
 ShowAllPagesInArchive: true
@@ -33,7 +34,7 @@ params:
   author: Razvan Stoica
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "2006-01-02"
+  DateFormat: "2021-01-31"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -49,6 +50,7 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
+  ShowFooterCredit: true
 
   mainSections:
   - post
@@ -86,16 +88,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Salut \U0001F44B"
+    Content: Bine ai venit pe blogul meu
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/"
+    - name: gitlab
+      url: "https://gitlab.com/"
+    - name: linkedin
+      url: "https://linkedin.com"
 
   analytics:
     google:
@@ -125,26 +127,53 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - name: Archive
-      url: /archives
-      weight: 5
-    - name: Search
-      url: /search/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 10
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: example
-      name: razvan.digital
-      url: https://razvan.digital
-      weight: 40
+languages:
+  en:
+     languageName: "English"
+     languageAltTitle: "English"
+     weight: 1
+     homeInfoParams:
+       Title: "Hi there \U0001F44B"
+       Content: Welcome to my blog
+     menu:
+       main:
+         - name: Archive
+           url: /archives
+           weight: 5
+         - name: Search
+           url: /search/
+           weight: 10
+         - identifier: tags
+           name: Tags
+           url: /tags/
+           weight: 10
+         - identifier: categories
+           name: Categories
+           url: /categories/
+           weight: 10
+  ro:
+     languageName: ":ro:"
+     languageAltTitle: "Romana"
+     weight: 2
+     homeInfoParams:
+       Title: "Salut \U0001F44B"
+       Content: Bine ai venit pe blogul meu
+     menu:
+       main:
+         - name: Archive
+           url: /archives
+           weight: 5
+         - name: Search
+           url: /search/
+           weight: 10
+         - identifier: tags
+           name: Tags
+           url: /tags/
+           weight: 10
+         - identifier: categories
+           name: Categories
+           url: /categories/
+           weight: 10
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
