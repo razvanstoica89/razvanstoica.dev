@@ -1,10 +1,12 @@
 ---
-title: "Abc"
-date: 2021-11-07T22:57:53+02:00
-weight: 2
-tags: ["second"]
-categories: ["Test"]
-author: "Razvan Stoica"
+title: "Tst post"
+date: 2021-08-15T11:30:03+00:00
+weight: 1
+aliases: ["/tst"]
+tags: ["tst"]
+categories: ["TST"]
+#author: "Me"
+author: ["Razvan Stoica", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
@@ -22,13 +24,15 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
     image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    alt: "alt text" # alt text
+    caption: "text" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
+layout: single-tst
 ---
-This is a abc post type
+## Heading 2
+Acesta este un post de test

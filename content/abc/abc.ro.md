@@ -31,4 +31,4 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-This is a abc post type
+Acesta este o postare de tipul abc

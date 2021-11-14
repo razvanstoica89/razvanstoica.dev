@@ -34,5 +34,6 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 layout: single-tst
 ---
+# Heading 1
 ## Heading 2
-Acesta este un post de test
+This is a test post

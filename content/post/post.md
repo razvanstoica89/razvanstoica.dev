@@ -1,5 +1,5 @@
 ---
-title: "Primul meu post"
+title: "My first post"
 date: 2020-09-15T11:30:03+00:00
 weight: 1
 aliases: ["/second"]
@@ -33,5 +33,6 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-# Aceasta este primul meu post
+# This is my first post
 Lorem ipsum dolor sit amet
+[This](https://razvan.digital) is an example link.

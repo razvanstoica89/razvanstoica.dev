@@ -1,10 +1,12 @@
 ---
-title: "Abc"
-date: 2021-11-07T22:57:53+02:00
-weight: 2
+title: "Primul meu post"
+date: 2020-09-15T11:30:03+00:00
+weight: 1
+aliases: ["/second"]
 tags: ["second"]
 categories: ["Test"]
 author: "Razvan Stoica"
+# author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
@@ -12,7 +14,7 @@ hidemeta: false
 comments: false
 description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: false # to disable highlightjs
+disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
@@ -31,4 +33,5 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-This is a abc post type
+# Aceasta este primul meu post
+Lorem ipsum dolor sit amet
