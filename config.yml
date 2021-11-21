@@ -1,6 +1,6 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://razvanstoica.dev/"
 languageCode: en-us
-title: ExampleSite
+title: Razvan Stoica
 paginate: 5
 theme: PaperMod
 
@@ -93,11 +93,11 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/razvanstoica89"
     - name: gitlab
-      url: "https://gitlab.com/"
+      url: "https://gitlab.com/razvan.stoica89"
     - name: linkedin
-      url: "https://linkedin.com"
+      url: "https://www.linkedin.com/in/razvan-stoica-825672108/"
 
   analytics:
     google:

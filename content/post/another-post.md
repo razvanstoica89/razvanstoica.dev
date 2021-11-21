@@ -34,4 +34,14 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 # This is an another post
-Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet 1
+Lorem ipsum dolor sit amet 2
+Lorem ipsum dolor sit amet 3
+Lorem ipsum dolor sit amet 4
+Lorem ipsum dolor sit amet 5
+Lorem ipsum dolor sit amet 6
+Lorem ipsum dolor sit amet 7
+
+
+
+
